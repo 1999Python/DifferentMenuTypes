@@ -1,0 +1,143 @@
+/* ! project styles */
+.accordion-examples__heading {
+    text-align: center;
+  }
+  /* accordion wrapper */
+  .accordion1-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* accordion card */
+  .accordion1-card {
+    width: 280px;
+    border: double goldenrod;
+    background-color: white;
+  }
+  
+  /* accordion title */
+  .accordion1-card__header {
+    font-weight: bold;
+    color: #202020;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  
+  /* accordion body */
+  .accordion1-card__body {
+    border-top: solid 1px goldenrod;
+    padding: 10px;
+    color: #3d3b3b;
+  }
+
+  /* ! project styles */
+.accordion-examples__heading {
+    text-align: center;
+  }
+  /* accordion wrapper */
+  .accordion2-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* accordion card */
+  .accordion2-card {
+    width: 280px;
+    border: double goldenrod;
+    background-color: white;
+  }
+  
+  /* accordion header */
+  .accordion2-card__header {
+    color: #202020;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  
+  /* icons */
+  .icons {
+    position: absolute;
+    right: 10px;
+    color: goldenrod;
+    transform: rotate(0deg);
+    transition: transform 300ms, color 300ms;
+  }
+  
+  /* accordion body */
+  .accordion2-card__body {
+    border-top: solid 1px goldenrod;
+    padding: 10px;
+    color: #3d3b3b;
+    display: none;
+  }
+  
+  /* javascript css classes to be added and removed */
+  .toggleIcon {
+    transform: rotate(45deg);
+    color: hsl(0, 70%, 50%);
+  }
+  
+  .active {
+    display: block;
+  }
+
+
+  /* ! project styles */
+.accordion-examples__heading {
+    text-align: center;
+  }
+  /* accordion wrapper */
+  .accordion3-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* accordion card */
+  .accordion3-card {
+    width: 280px;
+    border: double goldenrod;
+    background-color: white;
+  }
+  
+  /* accordion header */
+  .accordion3-card__header {
+    color: #202020;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  
+  /* icons */
+  .icons {
+    position: absolute;
+    right: 10px;
+    color: goldenrod;
+    transform: rotate(0deg);
+    transition: transform 300ms, color 300ms;
+  }
+  
+  /* accordion body */
+  .accordion3-card__body {
+    border-top: solid 1px goldenrod;
+    padding: 10px;
+    color: #3d3b3b;
+    display: none;
+  }
+  
+  /* javascript css classes to be added and removed */
+  .toggleIcon {
+    transform: rotate(45deg);
+    color: hsl(0, 70%, 50%);
+  }
+  
+  .active {
+    display: block;
+  }
